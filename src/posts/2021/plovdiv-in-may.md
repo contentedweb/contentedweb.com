@@ -1,6 +1,6 @@
 ---
 pageTitle: Plovdiv in May
-date: 2021-06-21T08:00:00+02:00
+date: 2021-06-21T08:00:00.000+02:00
 tags: travel
 
 ---
@@ -12,7 +12,7 @@ The word Kapana means "trap" in Bulgarian. This is a beautifully restored quarte
 
 ![Small lane with cafes and colourful umbrellas overhead providing shade.](/assets/images/kapana.jpg)
 
----
+***
 
 ## Dzhumaya Mosque
 
@@ -34,4 +34,4 @@ The amphitheatre is still in use and regularly hosts all sorts of music concerts
 
 ![The stage of the ancient roman amphitheatre](/assets/images/theatre-1.jpg)
 
-There is plenty more to see in Plovdiv. Best visited in Spring or early Summer to avoid the heat. Alternatively, visit in September when the city usual puts on a number of festivals after the hot July and August months.
+There is plenty more to see in Plovdiv. Best visited in Spring or early Summer to avoid the heat. Alternatively, visit in September when the city usual puts on a number of festivals after the hot July and August months. :-)
