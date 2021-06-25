@@ -12,7 +12,7 @@ The word Kapana means "trap" in Bulgarian. This is a beautifully restored quarte
 
 ![Small lane with cafes and colourful umbrellas overhead providing shade.](/assets/images/kapana.jpg)
 
-***
+---
 
 ## Dzhumaya Mosque
 
