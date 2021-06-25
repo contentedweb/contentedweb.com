@@ -1,0 +1,17 @@
+{
+    "title": "Contented.Web",
+    "url": "https://www.contentedweb.com/",
+    "domain": "contentedweb.com",
+    "description": "Web accessibility, photos, travel and random stuff.",
+    "feed": {
+      "subtitle": "Web accessibility, photos, travel and random stuff.",
+      "filename": "feed.xml",
+      "path": "/feed/feed.xml",
+      "url": "https://www.contentedweb.com/feed/feed.xml",
+      "id": "https://www.contentedweb.com/"
+    },
+    "author": {
+      "name": "ContentedWeb",
+      "email": "admin@contentedweb.com"
+    }
+  }

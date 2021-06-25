@@ -1,0 +1,44 @@
+<article class="webmention p-comment h-entry" id="webmention-{{ webmention['wm-id'] }}">
+  <h4>
+    <a class="webmention__author p-name u-url" href="{{ webmention.url }}">
+      {% if webmention.author.name.length %}
+        {{ webmention.author.name }}
+      {% else %}
+        Anonymous
+      {% endif %}
+    </a>
+  </h4>
+  <div class="webmention__content p-content">
+    {% if webmention.content.value.length %}
+      <p>{{ webmention.content.value | safe }}</p>
+    {% else %}
+      No comment
+    {% endif %}
+  </div>
+  <footer class="webmention__content p-content">
+    {% if webmention.published %}
+      <p>Posted by <cite class="h-card p-author"><a class="u-url p-name" href="{{ webmention.url }}">{% if webmention.author.name.length %} {{ webmention.author.name }} {% else %} Anonymous {% endif %}</a></cite> on <time class="webmention__pubdate dt-published" datetime="{{ webmention.published }}">{{ webmention.published | dateFromTimestamp | readableDate("dd LLL yyyy - HH:mm") }}</time></p>
+    {% elif webmention['wm-received'] %}
+      <p>Posted by <cite class="h-card p-author"><a class="u-url p-name" href="{{ webmention.url }}">{% if webmention.author.name.length %} {{ webmention.author.name }} {% else %} Anonymous {% endif %}</a></cite> on <time class="webmention__pubdate dt-published" datetime="{{ webmention['wm-received'] }}">{{ webmention['wm-received'] | dateFromTimestamp | readableDate("dd LLL yyyy - HH:mm") }}</time></p>
+    {% endif %}
+  </footer>
+</article>
+{#
+    {% if webmention.author %}
+        {% if webmention.author.photo %}
+          <img class="webmention__author__photo u-photo" src="{{ webmention.author.photo }}" alt="{{ webmention.author.name }}">
+        {% else %}
+          <img class="webmention__author__photo" src="{{ '/assets/images/webmention-avatar-default.svg' | url }}" alt="">
+        {% endif %}
+        {% if webmention.author.name.length %}
+          <strong class="p-name">{{ webmention.author.name }}</strong>
+        {% else %}
+          <strong class="p-name">Anonymous</strong>
+        {% endif %}
+    {% else %}
+      <span class="webmention__author">
+        <img class="webmention__author__photo" src="{{ '/assets/images/webmention-avatar-default.svg' | url }}" alt="">
+        <strong>Anonymous</strong>
+      </span>
+    {% endif %}
+#}
