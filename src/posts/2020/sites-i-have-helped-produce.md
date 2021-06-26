@@ -2,6 +2,7 @@
 pageTitle: Sites I have helped produce
 date: 2020-12-31
 tags: work
+
 ---
 This is a quick overview of all the sites I have produced over time. (As you can see I no longer build sites!)
 ---
@@ -105,8 +106,8 @@ This is a quick overview of all the sites I have produced over time. (As you can
 <h3>Web based investment banking applications</h3>
 <p>I spent three years developing large n-tier web based applications whilst working for <a href="https://www.dealogic.com/">Dealogic</a>. No other links, as this is all internal client work.</p>
 <h3>2001</h3>
-<h4>Homepage of Robin Massart</h4>
-<p>After becoming more interested in web standards and registering my own domain name (robinmassart.com), I recreated my geocities site as an indepedently hosted site with it's own domain name. I added lots more travel content, but the old content remained the same. Standards wise it's not something I am proud of, but not bad for 2001.</p>
+<h4>My Homepage</h4>
+<p>After becoming more interested in web standards and registering my own domain name, I recreated my geocities site as an indepedently hosted site with it's own domain name. I added lots more travel content, but the old content remained the same. Standards wise it's not something I am proud of, but not bad for 2001.</p>
 <h3>1998-2000</h3>
 <h4>Web Based Astronaut Training Database</h4>
 <p><a href="http://www.vega.de/">http://www.vega.de/</a><br /><a href="https:www.esa.int/Our_Activities/Human_Spaceflight/Astronauts/The_European_Astronaut_Centre">European Astronaut Centre</a></p>
@@ -114,4 +115,3 @@ This is a quick overview of all the sites I have produced over time. (As you can
 <h3>1998</h3>
 <h4>Personal Geocities Site.</h4>
 <p>Now defunct frames based web site about my interests: Football and Formula One. No standards awareness whatsoever, but it did include a short lived attempt at what we now call blogging. Remnants of which can be found at the above URL.</p>
-
