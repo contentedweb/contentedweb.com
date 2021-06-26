@@ -5,6 +5,8 @@ date: 2020-12-31T23:00:00Z
 ---
 <p> Welcome to the fourth redesign of my personal website. I've been working on my own personal website since about 1998. In that time it has had four designs, which roughly follow the evolution of the web. </p>
 
+---
+
 Here are links to my previous designs. Only the homepage works on these sites. I have removed the content, as most of it has been ported to my latest site.
 
 [The first design of my site](/old/v1/frameset.htm), put online in 1998, was hosted on the long ago defunct [GeoCities](https://en.wikipedia.org/wiki/Yahoo!_GeoCities).  It is perhaps a good representation of sites from the late 90s, being frame based, part of a webring and generally looking uninteresing.
