@@ -12,6 +12,7 @@ fields:
   name: tags
   label: tags
 pages:
+- src/posts/2021/covid-vaccination.md
 - src/posts/2021/forestry-io.md
 - src/posts/2021/forestry-io.md
 - src/posts/2021/plovdiv-in-may.md
