@@ -14,8 +14,10 @@ layout: layout.njk
         </time>
         {% if post.data.page.excerpt %}
           {{ post.data.page.excerpt | md | safe}}
+        {% else %}
+          {{ post.templateContent | safe}}
         {% endif %}
       </li>
     {% endif %}
   {% endfor %}  
-</ul>
+</ul> 
