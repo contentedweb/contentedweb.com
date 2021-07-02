@@ -15,7 +15,7 @@ layout: layout.njk
         {% if post.data.page.excerpt %}
           {{ post.data.page.excerpt | md | safe}}
         {% else %}
-          {{ post.data.page.content | md | safe}}
+          {{ post.content | md | safe}}
         {% endif %}
       </li>
     {% endif %}
