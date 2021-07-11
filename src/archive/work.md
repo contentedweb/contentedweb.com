@@ -1,6 +1,6 @@
 ---
 layout: archive.njk
-pageTitle: Work archive
+pageTitle: Work
 pagination:
   data: collections.work
   size: 20
@@ -23,6 +23,8 @@ Nearly all of them have been produced through my work at <a href="https://minerv
 <time datetime="{{ post.date | dateFormatMachine }}"><span class="date-day">{{ post.date.getDate() }}</span> <span class="date-month">{{ post.date.toLocaleString('default', { month: 'long' }) }}</span>, <span class="date-year">{{ post.date.getFullYear() }}</span></time>
 {% if post.data.page.excerpt %}
   {{ post.data.page.excerpt | safe}}
+{% else %}
+  {{ post.templateContent | safe}}
 {% endif %}
 </li>
   {% endfor %}  
