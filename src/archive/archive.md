@@ -17,7 +17,7 @@ This is the complete works, listed by year and month. You can also browse my pos
 You can also find all the <a href="/archive/work/">websites I helped produce whilst working for Minervation</a> - still my favourite employers, although not where I currently work.
 {% endif %}
 
-[comment]: # Use this https://jamesdoc.com/blog/2021/11ty-posts-by-year/ to list by month as on jeffputz.
+{# Use this https://jamesdoc.com/blog/2021/11ty-posts-by-year/ to list by month as on jeffputz. #}
 
 <ul class="posts-list">
   {% for post in posts  %}
