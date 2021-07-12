@@ -7,10 +7,8 @@ var moment = require('moment-timezone');
 
 module.exports = function(eleventyConfig) {
   // The following copies to `_site/img`
-  eleventyConfig.addPassthroughCopy(
-    "src/assets",
-    "src/old/",   
-    "**/*.htaccess");
+  eleventyConfig.addPassthroughCopy("src/assets");
+  eleventyConfig.addPassthroughCopy("old");
 
   eleventyConfig.setDataDeepMerge(true);
 
@@ -125,10 +123,11 @@ module.exports = function(eleventyConfig) {
   // 11ty defaults
   return {
     markdownTemplateEngine: "njk",
-    htmlTemplateEngine: "njk",
-    templateFormats: ["html", "liquid", "njk","md","htaccess","htm","jpg","gif","png","css"],
+    htmlTemplateEngine: "njk",  
+    templateFormats: ["liquid", "njk","md","htaccess","html","htm","css","js"],
     dir: {
-      input: 'src'
+      input: 'src',
+      output: '_site'
     }
 
   };
