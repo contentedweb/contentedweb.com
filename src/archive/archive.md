@@ -12,10 +12,12 @@ pagination:
 ---
 
 {% if page.url == pagination.href.first %}
-This is the complete works. You can also browse my posts by <a href="/archive/photos/">photos</a>, <a href="/archive/travel/">travel entries</a>, <a href="/archive/web/">web related content</a> or <a href="/archive/general/">general tidbits</a>. 
+This is the complete works, listed by year and month. You can also browse my posts,  by <a href="/archive/photos/">photos</a>, <a href="/archive/travel/">travel entries</a>, <a href="/archive/web/">web related content</a>, <a href="/archive/general/">general tidbits</a> or <a href="/archive/all-posts/">all posts</a>. 
 
 You can also find all the <a href="/archive/work/">websites I helped produce whilst working for Minervation</a> - still my favourite employers, although not where I currently work.
 {% endif %}
+
+{# Use this https://jamesdoc.com/blog/2021/11ty-posts-by-year/ to list by month as on jeffputz. #}
 
 <ul class="posts-list">
   {% for post in posts  %}
