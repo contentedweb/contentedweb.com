@@ -58,7 +58,7 @@
                     <h1>{{ pageTitle }}</h1> 
                 {% endif %}
                 {% if tags and "posts" in tags %}
-                    <span class="published"><time class="dt-published" datetime="{{ page.date | dateFormatMachine }}">{{ page.date | dateFormatShort }}</time></span>
+                    <h2><span class="published"><time class="dt-published" datetime="{{ page.date | dateFormatMachine }}">{{ page.date | dateFormatShort }}</time></span></h2>
                 {% endif %}
             </header>
             {% endif %}
