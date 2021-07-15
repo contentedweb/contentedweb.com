@@ -259,18 +259,18 @@ ul.posts-list {
     padding-left: 0;
 }
 
-ul.posts-list li {
+ul.posts-list > li {
     position: relative;
     margin-bottom: 4em;
     border-top: 1px solid #cccccc;
 }
 
-ul.posts-list li time {
+ul.posts-list > li time {
     font-weight: bold;
     font-size: 0.8em;
 }
 
-ul.posts-list li time span.date-day {
+ul.posts-list > li time span.date-day {
     font-weight: bolder;
     font-size: 1.5em;
     display:inline-block;
@@ -293,11 +293,11 @@ ul.posts-list li time span.date-day {
     margin-top: 5px;
 }
 
-ul.posts-list li h2 {
+ul.posts-list > li h2 {
     margin-bottom: 3px;
 }
 
-ul.posts-list li p {
+ul.posts-list > li p {
     margin-top: 5px;
 }
 
@@ -481,7 +481,7 @@ footer span.copy {
         padding-left: 7.5em;
     }
     
-    ul.posts-list li time {
+    ul.posts-list > li time {
         display: block;
         width: 10em;
         position: absolute;
@@ -493,7 +493,7 @@ footer span.copy {
         /*border-top: 1px solid #cccccc;*/
     }
     
-    ul.posts-list li time span.date-day {
+    ul.posts-list > li time span.date-day {
         font-weight: bolder;
         font-size: 3.5em;
         display:block;
