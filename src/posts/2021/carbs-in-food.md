@@ -24,8 +24,16 @@ My source is basically Google searches.
     <td>100</td>
   </tr>
   <tr>
+    <td>Chickpeas</td>
+    <td>61</td>
+  </tr>
+  <tr>
     <td>Brown bread</td>
     <td>56</td>
+  </tr>
+  <tr>
+    <td>Pasta (uncooked)</td>
+    <td>55</td>
   </tr>
   <tr>
     <td>White bread</td>
@@ -41,16 +49,20 @@ My source is basically Google searches.
     <th>Carbs per 100g</th>
   </tr>
   <tr>
-    <td>Sugar</td>
-    <td>100</td>
+    <td>Banana</td>
+    <td>23</td>
   </tr>
   <tr>
-    <td>Brown bread</td>
-    <td>56</td>
+    <td>Lentils</td>
+    <td>23</td>
   </tr>
   <tr>
-    <td>White bread</td>
-    <td>49</td>
+    <td>Sweetcorn</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>Grape</td>
+    <td>17</td>
   </tr>
 </table>
 
@@ -60,6 +72,26 @@ My source is basically Google searches.
   <tr>
     <th>Food</th>
     <th>Carbs per 100g</th>
+  </tr>
+  <tr>
+    <td>Hummus</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Blueberries</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Apple</td>
+    <td>14</td>
+  </tr>
+  <tr>
+    <td>Grapefruit</td>
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Strawberries</td>
+    <td>8</td>
   </tr>
   <tr>
     <td>Cherry tomato</td>
@@ -72,5 +104,13 @@ My source is basically Google searches.
   <tr>
     <td>Cucumber</td>
     <td>3.6</td>
+  </tr>
+  <tr>
+    <td>Eggs</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>Meats (almost all)</td>
+    <td>0</td>
   </tr>
 </table>
