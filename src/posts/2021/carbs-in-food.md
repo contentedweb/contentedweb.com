@@ -35,4 +35,42 @@ My source is basically Google searches.
 
 ### Medium
 
+<table>
+  <tr>
+    <th>Food</th>
+    <th>Carbs per 100g</th>
+  </tr>
+  <tr>
+    <td>Sugar</td>
+    <td>100</td>
+  </tr>
+  <tr>
+    <td>Brown bread</td>
+    <td>56</td>
+  </tr>
+  <tr>
+    <td>White bread</td>
+    <td>49</td>
+  </tr>
+</table>
+
 ### Low carbs
+
+<table>
+  <tr>
+    <th>Food</th>
+    <th>Carbs per 100g</th>
+  </tr>
+  <tr>
+    <td>Cherry tomato</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>Tomato</td>
+    <td>3.9</td>
+  </tr>
+  <tr>
+    <td>Cucumber</td>
+    <td>3.6</td>
+  </tr>
+</table>
