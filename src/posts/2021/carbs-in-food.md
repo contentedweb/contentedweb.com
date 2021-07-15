@@ -10,7 +10,7 @@ I have to watch the carbohydrates I eat, since I am Type 2 pre-diabetic, I made 
 * medium carbs, between 15g and 35g
 * low carbs, under 15g per 100g
 
-My source is basically Google searches.
+My source is basically Google searches.  This is a work in progress and will change as I add to this list.
 
 ### High carbs
 
