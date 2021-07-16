@@ -27,7 +27,7 @@
         <div class="header-area">
             <div class="header-title">
 <address class="h-card bio">
-<img class="u-photo" src="/assets/images/cw.jpg" alt="ContentedWeb" />
+<img class="u-photo" src="/assets/images/cw.jpg" />
 <div class="p-name sitetitle">
     <a href="/" class="u-url">
         ContentedWeb
@@ -51,20 +51,24 @@
             </div>
         </div>
     </header>
-    <main id="site-content" tabindex="-1">
+    <main id="site-content">
+       
        <article>
-            
             <header>
                 
                     <h1>Accessible hover image links</h1> 
                 
                 
-                    <h2><span class="published"><time class="dt-published" datetime="2012-05-25 12:00:00">25 May, 2012</time></span></h2>
+                    <h2 class="published">
+                        <time class="dt-published" datetime="2012-05-25 02:00:00">
+                            <span class="date-day">25</span> 
+                            <span class="date-month">May</span>, 
+                            <span class="date-year">2012</span>
+                        </time>
+                    </h2>
                 
             </header>
-            
-            <section>
-                <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
+            <p>Hover images, that is images that change when the pointer moves over them, have always been an integral part of web development. They alert the user to the fact that the image is "active". Usually this indicates it can be clicked.</p>
 <p>Implementing a hover image is relatively straightforward. But doing so in an accessible manner which does not require the use of Javascript is more tricky. Here's a technique I've recently used, which I like for it's relative simplicity as well as being mostly accessible.</p>
 <p>HTML:</p>
 <pre>&lt;a class="facebook" href="http://facebook.com/" title="Facebook"&gt;
@@ -88,8 +92,7 @@ border: 1px solid #000;
 </ul>
 <p>Simple, but effective.</p>
  
-
-                <div class="webmentions" id="webmentions">
+            <div class="webmentions" id="webmentions">
   <h3>Webmentions</h3>
   
     <p>No mentions yet.</p>
@@ -97,8 +100,8 @@ border: 1px solid #000;
 </div>
 
  
-            </section>
         </article>
+        
     </main>
     <footer>
         <div class="footer-area">

@@ -165,10 +165,15 @@ header nav {
 
 header h2 {
     margin: 0;
+    /*float: right;*/
+    margin-top: 10px;
 }
 
-header a, h1 a, h2 a, h3 a {
+header.masthead a {
     text-decoration: none;
+}
+h1 a, h2 a, h3 a {
+    /*text-decoration: none;*/
 }
 
 
@@ -220,14 +225,15 @@ nav ul li.current a {
 main {
     clear: both;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 1.6;
+    font-family: 'Lucia Grande', Verdana, Helvetica, Arial, sans-serif, serif;
+    line-height: 1.8;
     font-size: 1.8em;
     background-color: #ffffff;
     margin-bottom: 30px;
 }
 
 main h1, main h2, main h3 {
-    color: #555555; 
+    color: #000; 
 }
 
 h1, h2, h3, time, div.sitetitle, div.subtitle {
@@ -254,6 +260,10 @@ blockquote p {
     margin: 0;
 }
 
+div.posts-list hr {
+    margin-top: 70px;
+}
+
 ul.posts-list {
     list-style: none;
     padding-left: 0;
@@ -273,6 +283,36 @@ ul.posts-list > li time {
 ul.posts-list > li time span.date-day {
     font-weight: bolder;
     font-size: 1.5em;
+    display:inline-block;
+    color: #800020;
+    color: rgb(0, 92, 92);
+    color: #B85F01;
+    color: #F2E3A9;
+    /*background-color: #000000;*/
+    background-color: rgb(248, 119, 175);
+    background-color: rgb(224,255,204);
+    background-color: #F2E3A9;
+    background-color: #B85F01;
+    text-align: center;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    box-sizing: border-box;
+    padding-top: 6px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+article header time, h2 time {
+    font-weight: bold;
+    font-size: 1em;
+    /*float:left;*/
+}
+
+article header time span.date-day, h2 time span.date-day {
+    font-weight: bolder;
+    font-size: 1.2em;
+    line-height: 1.6;
     display:inline-block;
     color: #800020;
     color: rgb(0, 92, 92);
@@ -315,11 +355,17 @@ main article {
 }
 
 main article h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
+    text-align: center;
+    margin:auto;
 }
 
 main article h2 {
-    font-size: 1.1em;
+    font-size: 1.3em;
+}
+
+main article h3 {
+    font-size: 1.2em;
 }
 
 table {
@@ -470,7 +516,7 @@ footer span.copy {
 
 @media (min-width: 700px) { 
     main {
-        font-size: 2.1em;
+        font-size: 1.6em;
     }
 
     header div.sitetitle {

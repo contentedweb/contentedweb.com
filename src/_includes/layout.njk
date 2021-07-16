@@ -27,7 +27,7 @@
         <div class="header-area">
             <div class="header-title">
 <address class="h-card bio">
-<img class="u-photo" src="/assets/images/cw.jpg" alt="ContentedWeb" />
+<img class="u-photo" src="/assets/images/cw.jpg" />
 <div class="p-name sitetitle">
     <a href="/" class="u-url">
         ContentedWeb
@@ -50,24 +50,30 @@
             </div>
         </div>
     </header>
-    <main id="site-content" tabindex="-1">
+    <main id="site-content">
+       {% if pageTitle or (tags and "posts" in tags) %}
        <article>
-            {% if pageTitle or (tags and "posts" in tags) %}
             <header>
                 {% if pageTitle %}
                     <h1>{{ pageTitle }}</h1> 
                 {% endif %}
                 {% if tags and "posts" in tags %}
-                    <h2><span class="published"><time class="dt-published" datetime="{{ page.date | dateFormatMachine }}">{{ page.date | dateFormatShort }}</time></span></h2>
+                    <h2 class="published">
+                        <time class="dt-published" datetime="{{ page.date | dateFormatMachine }}">
+                            <span class="date-day">{{ page.date.getDate() }}</span> 
+                            <span class="date-month">{{ page.date.toLocaleString('default', { month: 'long' }) }}</span>, 
+                            <span class="date-year">{{ page.date.getFullYear() }}</span>
+                        </time>
+                    </h2>
                 {% endif %}
             </header>
-            {% endif %}
-            <section>
-                {{ content | safe }} 
-
-                {% include "webmentionlist.njk" %} 
-            </section>
+            {{ content | safe }} 
+            {% include "webmentionlist.njk" %} 
         </article>
+        {% else %}
+            {{ content | safe }} 
+            {% include "webmentionlist.njk" %} 
+        {% endif %}
     </main>
     <footer>
         <div class="footer-area">
