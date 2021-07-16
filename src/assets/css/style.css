@@ -153,7 +153,7 @@ header div.sitetitle {
     font-style: normal;
 }
 
-header div.sitetitle a:visited {
+header div.sitetitle a:visited, header div.sitetitle a {
     color: #B85F01;
 }
 
@@ -162,6 +162,13 @@ header nav {
     text-align: right;
     font-family: Verdana;
 }
+
+header.masthead nav a {
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 119, 175);
+    text-decoration-thickness: 3px;
+}
+
 
 header h2 {
     margin: 0;
@@ -218,7 +225,7 @@ nav a, nav a:visited, div.access a, div.access a:visited {
 
 nav ul li.current a {
     font-weight: bold;
-    text-decoration: none;
+    /*text-decoration: none;*/
     border-bottom: 3px solid rgb(0, 92, 92);
 }
 
@@ -478,7 +485,9 @@ footer a {
 }
 
 footer span.power a {
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-color: rgb(248, 119, 175);
+    text-decoration-thickness: 3px;
     font-weight: bold;
     color: rgb(0, 92, 92);
 }
