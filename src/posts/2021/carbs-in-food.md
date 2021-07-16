@@ -4,113 +4,126 @@ date: 2021-07-15
 tags: general
 
 ---
-I have to watch the carbohydrates I eat, since I am Type 2 pre-diabetic, I made myself this list of foods I tend to eat by carbs per 100g. I've split them into 3 categories:
+I have to watch the carbohydrates I eat, since I am Type 2 pre-diabetic, I made myself this list of foods I tend to eat by carbs per 100g. I've split them into 3 categories, based on the carbs per100g:
 
-* high carbs, anything above 35g carbs per 100g
+* high carbs, anything above 35g 
 * medium carbs, between 15g and 35g
-* low carbs, under 15g per 100g
+* low carbs, between 1g and 15g 
+* Negligible or no carbs, below 1g
 
 My source is basically Google searches.  This is a work in progress and will change as I add to this list.
 
 ### High carbs
 
 <table>
-  <tr>
-    <th>Food</th>
-    <th>Carbs per 100g</th>
-  </tr>
-  <tr>
-    <td>Sugar</td>
-    <td>100</td>
-  </tr>
-  <tr>
-    <td>Chickpeas</td>
-    <td>61</td>
-  </tr>
-  <tr>
-    <td>Brown bread</td>
-    <td>56</td>
-  </tr>
-  <tr>
-    <td>Pasta (uncooked)</td>
-    <td>55</td>
-  </tr>
-  <tr>
-    <td>White bread</td>
-    <td>49</td>
-  </tr>
+<tr>
+<th>Food</th>
+<th>Carbs per 100g</th>
+</tr>
+<tr>
+<td>Sugar</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Chickpeas</td>
+<td>61</td>
+</tr>
+<tr>
+<td>Brown bread</td>
+<td>56</td>
+</tr>
+<tr>
+<td>Pasta (uncooked)</td>
+<td>55</td>
+</tr>
+<tr>
+<td>White bread</td>
+<td>49</td>
+</tr>
 </table>
 
 ### Medium carbs
 
 <table>
-  <tr>
-    <th>Food</th>
-    <th>Carbs per 100g</th>
-  </tr>
-  <tr>
-    <td>Banana</td>
-    <td>23</td>
-  </tr>
-  <tr>
-    <td>Lentils</td>
-    <td>23</td>
-  </tr>
-  <tr>
-    <td>Sweetcorn</td>
-    <td>17</td>
-  </tr>
-  <tr>
-    <td>Grape</td>
-    <td>17</td>
-  </tr>
+<tr>
+<th>Food</th>
+<th>Carbs per 100g</th>
+</tr>
+<tr>
+<td>Banana</td>
+<td>23</td>
+</tr>
+<tr>
+<td>Lentils</td>
+<td>23</td>
+</tr>
+<tr>
+<td>Sweetcorn</td>
+<td>17</td>
+</tr>
+<tr>
+<td>Grape</td>
+<td>17</td>
+</tr>
 </table>
 
 ### Low carbs
 
 <table>
-  <tr>
-    <th>Food</th>
-    <th>Carbs per 100g</th>
-  </tr>
-  <tr>
-    <td>Hummus</td>
-    <td>14</td>
-  </tr>
-  <tr>
-    <td>Blueberries</td>
-    <td>14</td>
-  </tr>
-  <tr>
-    <td>Apple</td>
-    <td>14</td>
-  </tr>
-  <tr>
-    <td>Grapefruit</td>
-    <td>11</td>
-  </tr>
-  <tr>
-    <td>Strawberries</td>
-    <td>8</td>
-  </tr>
-  <tr>
-    <td>Cherry tomato</td>
-    <td>5</td>
-  </tr>
-  <tr>
-    <td>Tomato</td>
-    <td>3.9</td>
-  </tr>
-  <tr>
-    <td>Cucumber</td>
-    <td>3.6</td>
-  </tr>
-  <tr>
-    <td>Eggs</td>
-    <td>1</td>
-  </tr>
-  <tr>
-    <td>Meats (almost all)</td>
-    <td>0</td>
-  </tr>
+<tr>
+<th>Food</th>
+<th>Carbs per 100g</th>
+</tr>
+<tr>
+<td>Hummus</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Blueberries</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Apple</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Grapefruit</td>
+<td>11</td>
+</tr>
+<tr>
+<td>Strawberries</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Cherry tomato</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Beer</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Tomato</td>
+<td>3.9</td>
+</tr>
+<tr>
+<td>Cucumber</td>
+<td>3.6</td>
+</tr>
+<tr>
+<td>Wine</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Eggs</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Meats (almost all)</td>
+<td>0</td>
+</tr>
 </table>
+
+### No carbs
+
+Meat, Spirits

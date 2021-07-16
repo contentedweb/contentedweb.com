@@ -27,7 +27,7 @@
         <div class="header-area">
             <div class="header-title">
 <address class="h-card bio">
-<img class="u-photo" src="/assets/images/cw.jpg" alt="ContentedWeb" />
+<img class="u-photo" src="/assets/images/cw.jpg" />
 <div class="p-name sitetitle">
     <a href="/" class="u-url">
         ContentedWeb
@@ -51,20 +51,24 @@
             </div>
         </div>
     </header>
-    <main id="site-content" tabindex="-1">
+    <main id="site-content">
        <article>
+       
+        <header>
             
-            <header>
-                
-                    <h1>Welcome Back</h1> 
-                
-                
-                    <h2><span class="published"><time class="dt-published" datetime="2020-12-31 11:00:00">31 December, 2020</time></span></h2>
-                
-            </header>
+                <h1>Welcome Back</h1> 
             
-            <section>
-                <p> Welcome to the fourth redesign of my personal website. I've been working on my own personal website since about 1998. In that time it has had four designs, which roughly follow the evolution of the web. </p>
+            
+                <h2 class="published">
+                    <time class="dt-published" datetime="2021-01-01 12:00:00">
+                        <span class="date-day">1</span> 
+                        <span class="date-month">January</span>, 
+                        <span class="date-year">2021</span>
+                    </time>
+                </h2>
+            
+        </header>
+        <p> Welcome to the fourth redesign of my personal website. I've been working on my own personal website since about 1998. In that time it has had four designs, which roughly follow the evolution of the web. </p>
 <p>Here are links to my previous designs. Only the homepage works on these sites. I have removed the content, as most of it has been ported to my latest site.</p>
 <p><a href="/old/v1/frameset.htm">The first design of my site</a>, put online in 1998, was hosted on the long ago defunct <a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities">GeoCities</a>.  It is perhaps a good representation of sites from the late 90s, being frame based, part of a webring and generally looking uninteresing.</p>
 <p><a href="/old/v2/index.html">The second design of my site</a>, went live around 2001 and has been <a href="https://nearlyfreespeech.com">self-hosted on nearlyfreespeech.com</a> since 2006. I was experimenting with layouts, javascript and all sorts of pointless fun. I even coded up a, still functional, game of <a href="https://en.wikipedia.org/wiki/Sokoban">Sokoban</a> in JavaScript.</p>
@@ -73,8 +77,7 @@
 <p>It's certainly brought the fun back to hosting my own website. I enjoy writing my own HTML markup, dabbling in CSS and hopefully creating an accessible, quick loading, low maintenance, future proof website with no locked in dependencies on anyone else.</p>
 <p>Thanks for visiting!</p>
  
-
-                <div class="webmentions" id="webmentions">
+        <div class="webmentions" id="webmentions">
   <h3>Webmentions</h3>
   
     
@@ -148,7 +151,7 @@
 </div>
 
  
-            </section>
+        
         </article>
     </main>
     <footer>

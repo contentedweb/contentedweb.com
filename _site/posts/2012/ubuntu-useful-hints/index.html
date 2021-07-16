@@ -27,7 +27,7 @@
         <div class="header-area">
             <div class="header-title">
 <address class="h-card bio">
-<img class="u-photo" src="/assets/images/cw.jpg" alt="ContentedWeb" />
+<img class="u-photo" src="/assets/images/cw.jpg" />
 <div class="p-name sitetitle">
     <a href="/" class="u-url">
         ContentedWeb
@@ -51,20 +51,24 @@
             </div>
         </div>
     </header>
-    <main id="site-content" tabindex="-1">
+    <main id="site-content">
        <article>
+       
+        <header>
             
-            <header>
-                
-                    <h1>Ubuntu useful hints</h1> 
-                
-                
-                    <h2><span class="published"><time class="dt-published" datetime="2012-03-09 12:00:00">09 March, 2012</time></span></h2>
-                
-            </header>
+                <h1>Ubuntu useful hints</h1> 
             
-            <section>
-                <p>In this post I will be maintaing a list of useful hints for future reference.</p>
+            
+                <h2 class="published">
+                    <time class="dt-published" datetime="2012-03-09 01:00:00">
+                        <span class="date-day">9</span> 
+                        <span class="date-month">March</span>, 
+                        <span class="date-year">2012</span>
+                    </time>
+                </h2>
+            
+        </header>
+        <p>In this post I will be maintaing a list of useful hints for future reference.</p>
 <p><strong>Mouse speed</strong></p>
 <p>I find the default mouse speed much too fast. And even after reducing both speed and acceleration to a minimum it is still too fast. Some googling through up this handy hint:</p>
 <p><a href="http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/">http://patrickmylund.com/blog/lowering-gaming-mouse-sensitivity-in-ubuntu-9-10/</a></p>
@@ -85,8 +89,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 <p>Associations are located here: ~/.local/share/applications/mimeapps.list<br /><strong>Mounting Windows drive on startup</strong></p>
 <p>This is done using fstab, see here: <a href="http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions">http://askubuntu.com/questions/46588/how-to-automount-ntfs-partitions</a></p>
 <p>Also had to prevent auto-mounting by Nautilus: <a href="http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences">http://askubuntu.com/questions/89244/how-to-disable-automount-in-nautiluss-preferences</a></p> 
-
-                <div class="webmentions" id="webmentions">
+        <div class="webmentions" id="webmentions">
   <h3>Webmentions</h3>
   
     <p>No mentions yet.</p>
@@ -94,7 +97,7 @@ xinput --set-prop "Device name or ID" "Device Accel Constant Deceleration" 2<br 
 </div>
 
  
-            </section>
+        
         </article>
     </main>
     <footer>

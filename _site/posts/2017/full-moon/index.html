@@ -27,7 +27,7 @@
         <div class="header-area">
             <div class="header-title">
 <address class="h-card bio">
-<img class="u-photo" src="/assets/images/cw.jpg" alt="ContentedWeb" />
+<img class="u-photo" src="/assets/images/cw.jpg" />
 <div class="p-name sitetitle">
     <a href="/" class="u-url">
         ContentedWeb
@@ -51,23 +51,26 @@
             </div>
         </div>
     </header>
-    <main id="site-content" tabindex="-1">
+    <main id="site-content">
        <article>
+       
+        <header>
             
-            <header>
-                
-                    <h1>Full moon</h1> 
-                
-                
-                    <h2><span class="published"><time class="dt-published" datetime="2017-03-12 12:00:00">12 March, 2017</time></span></h2>
-                
-            </header>
+                <h1>Full moon</h1> 
             
-            <section>
-                <p><img src="/assets/images/full-moon.png" alt="Full moon seen through dark branches" /></p><p>Full moon, Walferdange, March 2017.</p>
+            
+                <h2 class="published">
+                    <time class="dt-published" datetime="2017-03-12 01:00:00">
+                        <span class="date-day">12</span> 
+                        <span class="date-month">March</span>, 
+                        <span class="date-year">2017</span>
+                    </time>
+                </h2>
+            
+        </header>
+        <p><img src="/assets/images/full-moon.png" alt="Full moon seen through dark branches" /></p><p>Full moon, Walferdange, March 2017.</p>
  
-
-                <div class="webmentions" id="webmentions">
+        <div class="webmentions" id="webmentions">
   <h3>Webmentions</h3>
   
     <p>No mentions yet.</p>
@@ -75,7 +78,7 @@
 </div>
 
  
-            </section>
+        
         </article>
     </main>
     <footer>
