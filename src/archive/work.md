@@ -16,16 +16,3 @@ Some of these sites have since gone on to win awards for clarity and quality of 
 Nearly all of them have been produced through my work at <a href="https://minervation.com">Minervation</a>. Up until late 2010 the sites were produced using Minervation's in-house CMS: Phaedrus. Since then we switched to using Wordpress more and more. I left Minervation in late 2012, so this list more or less stops there. 
 {% endif %}
 
-<ul class="posts-list">
-  {% for post in posts  %}
-<li>
-<h3><a href="{{ post.url }}">{{ post.data.pageTitle }}</a></h3>
-<time datetime="{{ post.date | dateFormatMachine }}"><span class="date-day">{{ post.date.getDate() }}</span> <span class="date-month">{{ post.date.toLocaleString('default', { month: 'long' }) }}</span>, <span class="date-year">{{ post.date.getFullYear() }}</span></time>
-{% if post.data.page.excerpt %}
-  {{ post.data.page.excerpt | safe}}
-{% else %}
-  {{ post.templateContent | safe}}
-{% endif %}
-</li>
-  {% endfor %}  
-</ul>
