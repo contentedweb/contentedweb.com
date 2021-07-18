@@ -25,7 +25,7 @@ Chickpeas, Brown bread, Pasta (uncooked), White bread
 
 ### Medium carbs (between 15g and 35g)
 
-Banana, Grapes, Lentils, Sweetcorn
+Banana, Grapes, Lentils, Kiwi, Sweetcorn
 
 ### Low carbs (between 5g and 15g)
 
