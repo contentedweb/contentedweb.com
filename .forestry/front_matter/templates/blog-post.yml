@@ -15,13 +15,12 @@ fields:
   name: tags
   label: tags
 pages:
+- src/posts/2021/british-grand-prix-2021.md
 - src/posts/2021/carbs-in-food.md
 - src/posts/2021/covid-vaccination.md
 - src/posts/2021/forestry-io.md
-- src/posts/2021/forestry-io.md
 - src/posts/2021/gitpod.md
 - src/posts/2021/jungle-in-the-city.md
-- src/posts/2021/plovdiv-in-may.md
 - src/posts/2021/plovdiv-in-may.md
 - src/posts/2021/shrimp-fest.md
 - src/posts/2021/vaccine-equality.md
