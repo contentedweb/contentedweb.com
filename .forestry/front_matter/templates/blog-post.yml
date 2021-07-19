@@ -15,6 +15,7 @@ fields:
   name: tags
   label: tags
 pages:
+- src/posts/2021/british-grand-prix-2021.md
 - src/posts/2021/carbs-in-food.md
 - src/posts/2021/covid-vaccination.md
 - src/posts/2021/forestry-io.md
