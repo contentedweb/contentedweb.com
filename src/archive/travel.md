@@ -8,4 +8,4 @@ pagination:
   alias: posts
 ---
 
-<p>My travel pics and stories</p>
+<p>My travel pics and stories</p> 
