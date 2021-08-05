@@ -22,4 +22,18 @@ So what issues do I have with this?
 
 First of all I do not see the point in this need to hide the scrollbars when hover is removed from the column. This is inconsistent. Some scrollbars are permanently visible. Some aren't. How do I know there are more folders in the folder list without hovering over them?
 
-Hiding the scrollbars serves no purpose. They don't cover anything up when they do appear, so hiding them 
+Hiding the scrollbars serves no purpose. They don't cover anything up when they do appear, so hiding them serves no  purpose. In addition they are so thin that even if they did cover up folder names, the amount covered would be minimal. Which leads me to the next point.
+
+### Interaction issues
+
+Because these scrollbars are so thin, I find them difficult use. I don't have a target area before hovering over the list of folders. So I move the pointer over the list. The scrollbar appears and I have to move the pointer back a little to scroll. However sometimes I move to far and the pointer leaves the column. As it is no longer hovering over that column the scrollbar disappears. Then I move the pointer back over folder list. It occasionally leads to the frustrating effect of chasing the scrollbar. Why can't it just remain visible all the time?
+
+### Old School
+
+Interestingly this design is not repeated in Microsoft's desktop explorer:
+
+![Windows explorer with visible scrollbars](/assets/images/use-desktop-1.PNG)
+
+As you can see all the scrollbars are visible and they are much wider than in the web interface. Admittedly this a bit of an old school design. But it works and is much more usable than the implementation of scrollbars in the Outlook web interface.
+
+  
