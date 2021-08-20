@@ -10,3 +10,7 @@ This is my personal space for writing down my ideas. It contains content on <a h
 
 ## About this site
 This site is handcoded using plain old HTML and CSS. Server side, the text is largely written using markdown and the site is generated using [eleventy](https://11ty.dev). Client-side there is no javascript, no cookies, no annoying tracking or data privacy popups and no annoying design gimmicks that get in the way of the information. It's plain text, largely black on white.
+
+## Other
+
+- [Reading list](/reading)
