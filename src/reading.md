@@ -4,6 +4,11 @@ pageTitle: Reading list
 ---
 This is a list of books I have read in reverse chronological order. 
 
+## The player of games - Iain M. Banks
+September 2021
+
+Reading now.
+
 ## Blindsight - Peter Watts
 August 2021
 
