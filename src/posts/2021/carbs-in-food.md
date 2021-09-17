@@ -4,7 +4,7 @@ date: 2021-07-15
 tags: general
 
 ---
-I have to watch the carbohydrates I eat, since I am Type 2 pre-diabetic, I made myself this list of foods I tend to eat by carbs per 100g. I've split them into 3 categories, based on the carbs per 100g:
+I have to watch the carbohydrates I eat, since I am Type 2 pre-diabetic, I made myself this list of foods I tend to eat by carbs per 100g. I've split them into several categories, based on the carbs per 100g:
 
 * extreme carbs, above 70g
 * high carbs, anything between 35g and 70g
@@ -17,7 +17,7 @@ My source is basically Google searches.  This is a work in progress and will cha
 
 ### Extreme (above 70g)
 
-Sugar
+Sugar, Rice (uncooked)
 
 ### High carbs (between 35g and 70g)
 
